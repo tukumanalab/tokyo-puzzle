@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.DS_Store
+npm-debug.log*
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+
+# 生成データ（CI で生成）
+public/data/boundary/
+public/data/stl/
+public/data/dem/

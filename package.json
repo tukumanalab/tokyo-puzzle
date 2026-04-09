@@ -1,0 +1,32 @@
+{
+  "name": "tokyo-puzzle",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "data:fetch": "npx tsx scripts/fetch-boundaries.ts",
+    "data:stl": "python3 scripts/gen_stl.py",
+    "data:frame": "python3 scripts/gen_frame.py"
+  },
+  "dependencies": {
+    "@types/three": "^0.183.1",
+    "autoprefixer": "^10",
+    "jszip": "^3.10",
+    "next": "^14",
+    "postcss": "^8",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwindcss": "^3.4",
+    "three": "^0.183.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "fast-xml-parser": "^4.4",
+    "tsx": "^4",
+    "typescript": "^5"
+  }
+}

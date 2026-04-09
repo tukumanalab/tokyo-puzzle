@@ -1,0 +1,65 @@
+import type { MunicipalityInfo } from '../types';
+
+export const SPECIAL_WARDS: MunicipalityInfo[] = [
+  { code:'13101', name:'千代田区',  nameEn:'Chiyoda',         color:'#ef4444' },
+  { code:'13102', name:'中央区',    nameEn:'Chuo',            color:'#f97316' },
+  { code:'13103', name:'港区',      nameEn:'Minato',          color:'#f59e0b' },
+  { code:'13104', name:'新宿区',    nameEn:'Shinjuku',        color:'#eab308' },
+  { code:'13105', name:'文京区',    nameEn:'Bunkyo',          color:'#84cc16' },
+  { code:'13106', name:'台東区',    nameEn:'Taito',           color:'#22c55e' },
+  { code:'13107', name:'墨田区',    nameEn:'Sumida',          color:'#10b981' },
+  { code:'13108', name:'江東区',    nameEn:'Koto',            color:'#06b6d4' },
+  { code:'13109', name:'品川区',    nameEn:'Shinagawa',       color:'#3b82f6' },
+  { code:'13110', name:'目黒区',    nameEn:'Meguro',          color:'#6366f1' },
+  { code:'13111', name:'大田区',    nameEn:'Ota',             color:'#a855f7' },
+  { code:'13112', name:'世田谷区',  nameEn:'Setagaya',        color:'#ec4899' },
+  { code:'13113', name:'渋谷区',    nameEn:'Shibuya',         color:'#f43f5e' },
+  { code:'13114', name:'中野区',    nameEn:'Nakano',          color:'#fb923c' },
+  { code:'13115', name:'杉並区',    nameEn:'Suginami',        color:'#fbbf24' },
+  { code:'13116', name:'豊島区',    nameEn:'Toshima',         color:'#a3e635' },
+  { code:'13117', name:'北区',      nameEn:'Kita',            color:'#34d399' },
+  { code:'13118', name:'荒川区',    nameEn:'Arakawa',         color:'#22d3ee' },
+  { code:'13119', name:'板橋区',    nameEn:'Itabashi',        color:'#60a5fa' },
+  { code:'13120', name:'練馬区',    nameEn:'Nerima',          color:'#818cf8' },
+  { code:'13121', name:'足立区',    nameEn:'Adachi',          color:'#c084fc' },
+  { code:'13122', name:'葛飾区',    nameEn:'Katsushika',      color:'#f472b6' },
+  { code:'13123', name:'江戸川区',  nameEn:'Edogawa',         color:'#fb7185' },
+];
+
+export const TAMA_CITIES: MunicipalityInfo[] = [
+  { code:'13201', name:'八王子市',   nameEn:'Hachioji',        color:'#0ea5e9' },
+  { code:'13202', name:'立川市',     nameEn:'Tachikawa',       color:'#06b6d4' },
+  { code:'13203', name:'武蔵野市',   nameEn:'Musashino',       color:'#14b8a6' },
+  { code:'13204', name:'三鷹市',     nameEn:'Mitaka',          color:'#2dd4bf' },
+  { code:'13205', name:'青梅市',     nameEn:'Ome',             color:'#38bdf8' },
+  { code:'13206', name:'府中市',     nameEn:'Fuchu',           color:'#7dd3fc' },
+  { code:'13207', name:'昭島市',     nameEn:'Akishima',        color:'#93c5fd' },
+  { code:'13208', name:'調布市',     nameEn:'Chofu',           color:'#a5b4fc' },
+  { code:'13209', name:'町田市',     nameEn:'Machida',         color:'#4f46e5' },
+  { code:'13210', name:'小金井市',   nameEn:'Koganei',         color:'#4338ca' },
+  { code:'13211', name:'小平市',     nameEn:'Kodaira',         color:'#3730a3' },
+  { code:'13212', name:'日野市',     nameEn:'Hino',            color:'#0284c7' },
+  { code:'13213', name:'東村山市',   nameEn:'Higashimurayama', color:'#0369a1' },
+  { code:'13214', name:'国分寺市',   nameEn:'Kokubunji',       color:'#075985' },
+  { code:'13215', name:'国立市',     nameEn:'Kunitachi',       color:'#0c4a6e' },
+  { code:'13218', name:'福生市',     nameEn:'Fussa',           color:'#7c3aed' },
+  { code:'13219', name:'狛江市',     nameEn:'Komae',           color:'#8b5cf6' },
+  { code:'13220', name:'東大和市',   nameEn:'Higashiyamato',   color:'#a78bfa' },
+  { code:'13221', name:'清瀬市',     nameEn:'Kiyose',          color:'#c4b5fd' },
+  { code:'13222', name:'東久留米市', nameEn:'Higashikurume',   color:'#6d28d9' },
+  { code:'13223', name:'武蔵村山市', nameEn:'Musashimurayama', color:'#155e75' },
+  { code:'13224', name:'多摩市',     nameEn:'Tama',            color:'#164e63' },
+  { code:'13225', name:'稲城市',     nameEn:'Inagi',           color:'#0e7490' },
+  { code:'13227', name:'羽村市',     nameEn:'Hamura',          color:'#0891b2' },
+  { code:'13228', name:'あきる野市', nameEn:'Akiruno',         color:'#5b21b6' },
+  { code:'13229', name:'西東京市',   nameEn:'Nishitokyo',      color:'#312e81' },
+];
+
+export const NISHITAMA_TOWNS: MunicipalityInfo[] = [
+  { code:'13303', name:'瑞穂町',   nameEn:'Mizuho',   color:'#16a34a' },
+  { code:'13305', name:'日の出町', nameEn:'Hinode',   color:'#15803d' },
+  { code:'13307', name:'檜原村',   nameEn:'Hinohara', color:'#166534' },
+  { code:'13308', name:'奥多摩町', nameEn:'Okutama',  color:'#14532d' },
+];
+
+export const BASE_PATH = process.env.NODE_ENV === 'production' ? '/tokyo-puzzle' : '';
