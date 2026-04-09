@@ -163,13 +163,21 @@ export default function HomePage() {
                   <span className="font-medium text-sm">{label}</span>
                   <span className="ml-2 text-gray-500 text-xs">{size}</span>
                 </div>
-                <a
-                  href={`${BASE_PATH}/data/stl/${file}`}
-                  download={file}
-                  className="bg-blue-600 hover:bg-blue-500 transition-colors px-3 py-1.5 rounded text-sm font-medium flex-shrink-0"
-                >
-                  ダウンロード
-                </a>
+                <div className="flex items-center gap-4 flex-shrink-0">
+                  <button
+                    onClick={() => setPreview({ code: file.replace('.stl', ''), name: label, color: '#888888' })}
+                    className="text-sm text-gray-500 hover:text-gray-200 transition-colors"
+                  >
+                    プレビュー
+                  </button>
+                  <a
+                    href={`${BASE_PATH}/data/stl/${file}`}
+                    download={file}
+                    className="bg-blue-600 hover:bg-blue-500 transition-colors px-3 py-1.5 rounded text-sm font-medium"
+                  >
+                    ダウンロード
+                  </a>
+                </div>
               </div>
             ))}
           </div>
