@@ -4,6 +4,12 @@
 
 🌐 **[https://tukumanalab.github.io/tokyo-puzzle/](https://tukumanalab.github.io/tokyo-puzzle/)**
 
+## ギャラリー
+
+| 組み立て中 | 完成形 |
+|---|---|
+| ![組み立て中](images/puzzle_pieces_assembling.jpg) | ![完成形](images/puzzle_completed.jpg) |
+
 ## ピース仕様
 
 - 全体スケール: 実距離 300km → 1.5mm（約 1/200,000）

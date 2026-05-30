@@ -6,6 +6,7 @@ npm-debug.log*
 .env*.local
 *.tsbuildinfo
 next-env.d.ts
+.claude/
 
 # 生成データ（CI で生成）
 public/data/boundary/

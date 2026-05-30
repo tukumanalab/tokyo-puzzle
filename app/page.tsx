@@ -74,6 +74,21 @@ export default function HomePage() {
           </p>
         </header>
 
+        <section className="flex flex-col gap-3">
+          <div className="grid grid-cols-2 gap-3">
+            <img
+              src={`${BASE_PATH}/images/puzzle_pieces_assembling.jpg`}
+              alt="パズルを組み立て中"
+              className="rounded-lg w-full object-cover aspect-square"
+            />
+            <img
+              src={`${BASE_PATH}/images/puzzle_completed.jpg`}
+              alt="完成したパズル（3分割フレーム）"
+              className="rounded-lg w-full object-cover aspect-square"
+            />
+          </div>
+        </section>
+
         {GROUPS.map((group) => {
           const isOpen = openGroups.has(group.label);
           const isZipping = zippingKey === group.label;
